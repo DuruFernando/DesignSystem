@@ -2,7 +2,7 @@
     width: 100%;
     font-family: sans-serif;
     color: #000;
-    boder-collapse: collapse;
+    border-collapse: collapse;
 }
 
 .tokens-grid thead th {
