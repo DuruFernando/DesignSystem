@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Button, ButtonsProps } from '@duru-ui/react'
+import { Button, ButtonProps } from '@duru-ui/react'
 
 export default {
   title: 'Home',
@@ -15,10 +15,10 @@ export default {
   args: {
     children: 'Enviar',
   },
-} as Meta<ButtonsProps>
+} as Meta<ButtonProps>
 
-export const Primary: StoryObj<ButtonsProps> = {}
-export const Big: StoryObj<ButtonsProps> = {
+export const Primary: StoryObj<ButtonProps> = {}
+export const Big: StoryObj<ButtonProps> = {
   args: {
     size: 'big',
   },
