@@ -22,7 +22,6 @@ const config: StorybookConfig = {
     name: getAbsolutePath("@storybook/react-vite"),
     options: {},
   },
-  staticDirs: ['../public', './assets'],
   docs: {
     autodocs: "tag",
   },
